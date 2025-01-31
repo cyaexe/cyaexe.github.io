@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webhook Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <pre>
+ ▄████▄▓██   ██▓ ▄▄▄            █     █░ ██░ ██ 
+▒██▀ ▀█ ▒██  ██▒▒████▄         ▓█░ █ ░█░▓██░ ██▒
+▒▓█    ▄ ▒██ ██░▒██  ▀█▄       ▒█░ █ ░█ ▒██▀▀██░
+▒▓▓▄ ▄██▒░ ▐██▓░░██▄▄▄▄██      ░█░ █ ░█ ░▓█ ░██ 
+▒ ▓███▀ ░░ ██▒▓░ ▓█   ▓██▒ ██▓ ░░██▒██▓ ░▓█▒░██▓
+░ ░▒ ▒  ░ ██▒▒▒  ▒▒   ▓▒█░ ▒▓▒ ░ ▓░▒ ▒   ▒ ░░▒░▒
+  ░  ▒  ▓██ ░▒░   ▒   ▒▒ ░ ░▒    ▒ ░ ░   ▒ ░░ ░
+░       ▒ ▒ ░░    ░   ▒    ░     ░   ░   ░  ░░ ░
+░ ░     ░ ░           ░  ░  ░      ░     ░  ░  ░
+░       ░ ░                 ░                    
+            </pre>
+        </div>
+        <div class="form-container">
+            <h1>Webhook Manager</h1>
+            <input type="text" id="webhook-url" placeholder="Enter Webhook URL" class="input-field">
+            <div class="button-container">
+                <button id="delete-webhook" class="action-button">Delete Webhook</button>
+                <button id="spam-messages" class="action-button">Spam Messages</button>
+                <button id="edit-name" class="action-button">Edit Webhook Name</button>
+            </div>
+            <div id="message-box"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
